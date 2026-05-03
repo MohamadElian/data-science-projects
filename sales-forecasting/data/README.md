@@ -1,7 +1,22 @@
-BTS = Beyond The Smartphone (tablets,home internet, watches, and tracker lines)
+# Data Description
 
-FB = For Business (any new lines for business accounts) 
+This dataset represents monthly sales performance across different product categories.
 
-APP = Acessories Per Phone (calculated by dividing number of accessories sold by number of upgrades done. 
-Every upgrade should have at least 2 accessories sold, so this number should always be greater than or equal to 2.
-The goal projection for APP is always 2.
+## Variables
+
+- **BTS (Beyond The Smartphone)**  
+  Includes tablets, home internet, watches, and tracker lines.
+
+- **FB (For Business)**  
+  Represents new lines added for business accounts.
+
+- **APP (Accessories Per Phone)**  
+  Calculated as:
+  Accessories Sold ÷ Number of Upgrades
+
+  - Each upgrade is expected to include at least 2 accessories  
+  - Target value: APP ≥ 2
+
+## Notes
+
+This dataset was used for forecasting and modeling sales trends. It can be replaced with similar time-series sales data for replication or further analysis.
